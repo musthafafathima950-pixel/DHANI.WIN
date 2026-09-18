@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security  real money </title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #111;
+      color: white;
+      min-height: 100vh;
+    }
+
+    .warning {
+      background: #e50914;
+      padding: 12px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .app {
+      max-width: 430px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .logo {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      margin: 25px 0;
+    }
+
+    .real {
+      text-align: center;
+      color: #ffcc00;
+      font-size: 13px;
+      margin-bottom: 15px;
+    }
+
+    .balance {
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 14px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .balance small {
+      color: #aaa;
+    }
+
+    .amount {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      margin-top: 15px;
+      border: 0;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .add {
+      background: #19c37d;
+      color: #000;
+    }
+
+    .play {
+      background: #ffcc00;
+      color: #000;
+    }
+
+    .notice {
+      display: none;
+      margin-top: 18px;
+      padding: 15px;
+      border-radius: 10px;
+      background: #2b1717;
+      border: 1px solid #e50914;
+      color: #ffb3b3;
+      text-align: center;
+    }
+
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      color: #999;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="warning">
+     REAL MONEY
+  </div>
+
+  <div class="app">
+
+    <div class="logo">
+      🎰 real APP
+    </div>
+
+    <div class="real">
+      This interface is completely fictional.
+    </div>
+
+    <div class="balance">
+      <small>real Balance</small>
+      <div class="amount">₹0.00</div>
+
+      <button class="add" onclick="showWarning()">
+        ADD MONEY — real
+      </button>
+
+      <button class="play" onclick="showWarning()">
+        PLAY — real
+      </button>
+
+      <div class="notice" id="notice">
+        🚫 real ONLY<br><br>
+        real money added or withdrawn.
+      </div>
+    </div>
+
+  
+
+
+
+  <script>
+    function showWarning() {
+      document.getElementById("notice").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
